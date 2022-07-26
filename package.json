@@ -1,0 +1,23 @@
+{
+  "name": "ticket-bot",
+  "version": "1.0.0",
+  "description": "v1: create an Intercom ticket from Slack message ; v2: when Intercom ticket closed add threaded message to original Slack message",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremiahcurrier/ticket-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremiahcurrier/ticket-bot/issues"
+  },
+  "homepage": "https://github.com/jeremiahcurrier/ticket-bot#readme",
+  "dependencies": {
+    "@slack/bolt": "^3.12.0",
+    "dotenv": "^16.0.1"
+  }
+}
